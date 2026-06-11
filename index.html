@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light" data-font="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BioFlux - Agrinho 2026: transição energética no campo com biometano e biofertilizantes a partir de dejetos da suinocultura e da avicultura.">
+  <title>BioFlux</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true">
+    <span id="readingProgress"></span>
+  </div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <span>
+        <strong>BioFlux</strong>
+        <small>Agroenergia circular</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menu de navegação">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <div class="nav-panel" id="mobileMenu">
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#problema">Problema</a>
+        <a href="#solucao">Solução</a>
+        <a href="#evidencias">Evidências</a>
+        <a href="#simulador">Simulador</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#creditos">Pesquisa</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+
+      <div class="header-tools" aria-label="Ferramentas de acessibilidade">
+        <button class="tool-button" type="button" id="decreaseFont" aria-label="Diminuir tamanho da fonte">A-</button>
+        <button class="tool-button" type="button" id="increaseFont" aria-label="Aumentar tamanho da fonte">A+</button>
+        <button class="tool-button theme-button" type="button" id="themeToggle" aria-label="Alternar modo escuro">
+          <span aria-hidden="true">●</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-panel" id="inicio" aria-labelledby="heroTitle">
+      <div class="hero-content">
+        <p class="eyebrow">Agrinho 2026</p>
+        <h1 id="heroTitle">Energia circular nasce no campo</h1>
+        <p class="hero-principle">Do dejeto ao megawatt: energia circular no campo.</p>
+        <p class="hero-copy">Um percurso educativo sobre como dejetos da suinocultura e da avicultura podem ser tratados em biodigestores para gerar biogás, biometano, energia renovável e biofertilizantes para o solo produtivo.</p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#problema">Começar a leitura</a>
+          <a class="button secondary" href="#simulador">Ver simulador</a>
+        </div>
+
+      </div>
+
+      <dl class="hero-indicators" aria-label="Indicadores do sistema">
+          <div>
+            <dt>Entrada</dt>
+            <dd>dejetos orgânicos</dd>
+          </div>
+          <div>
+            <dt>Processo</dt>
+            <dd>digestão anaeróbia</dd>
+          </div>
+          <div>
+            <dt>Saída</dt>
+            <dd>energia + fertilidade</dd>
+          </div>
+      </dl>
+
+    </section>
+
+    <section class="section-panel problem-section" id="problema" aria-labelledby="problemTitle">
+      <div class="section-heading">
+        <p class="eyebrow">O problema</p>
+        <h2 id="problemTitle">O passivo invisível das granjas</h2>
+        <p>Na suinocultura e na avicultura, os dejetos concentram matéria orgânica, nutrientes, umidade e energia química. Quando o manejo é inadequado, esse material pode pressionar água, ar e solo. Quando é tratado, vira insumo para uma cadeia circular.</p>
+      </div>
+
+      <div class="problem-layout">
+        <article class="problem-lead">
+          <span class="card-badge">Risco e oportunidade</span>
+          <h3>O mesmo resíduo que pode contaminar também pode gerar energia.</h3>
+          <p>O desafio não é apenas descartar. É organizar coleta, tratamento, aproveitamento energético e retorno agronômico com responsabilidade técnica.</p>
+        </article>
+
+        <div class="card-grid three-columns">
+          <article class="info-card">
+            <h3>Água sob risco</h3>
+            <p>Sem manejo correto, nutrientes e matéria orgânica podem alcançar cursos d'água e lençóis freáticos, alterando a qualidade ambiental da propriedade e do território.</p>
+          </article>
+          <article class="info-card">
+            <h3>Energia desperdiçada</h3>
+            <p>A decomposição descontrolada libera gases e odores, enquanto o potencial energético do metano deixa de ser capturado para uso produtivo.</p>
+          </article>
+          <article class="info-card">
+            <h3>Custo ambiental e produtivo</h3>
+            <p>O descarte sem planejamento aumenta riscos, reduz eficiência e desperdiça nutrientes que poderiam retornar ao solo como biofertilizante tratado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-panel solution-section" id="solucao" aria-labelledby="solutionTitle">
+      <div class="section-heading compact">
+        <p class="eyebrow">A solução</p>
+        <h2 id="solutionTitle">Fluxo circular de biometano e biofertilizantes</h2>
+        <p>O biodigestor anaeróbio é o ponto técnico que conecta produção animal, tratamento de dejetos, biogás, energia, digestato e solo produtivo.</p>
+      </div>
+
+      <div class="process-flow" aria-label="Fluxo de produção de biometano e biofertilizante">
+        <article class="process-card source">
+          <span class="process-number">01</span>
+          <small>origem</small>
+          <h3>Suínos e aves</h3>
+          <p>Criações geram dejetos orgânicos com água, nutrientes e matéria biodegradável.</p>
+        </article>
+        <article class="process-card waste">
+          <span class="process-number">02</span>
+          <small>coleta</small>
+          <h3>Dejetos orgânicos</h3>
+          <p>O resíduo é conduzido para tratamento, evitando descarte sem controle.</p>
+        </article>
+        <article class="process-card biodigestion">
+          <span class="process-number">03</span>
+          <small>reator</small>
+          <h3>Biodigestor anaeróbio</h3>
+          <p>Microrganismos degradam a matéria orgânica em ambiente sem oxigênio.</p>
+        </article>
+        <article class="process-card gas">
+          <span class="process-number">04</span>
+          <small>gás bruto</small>
+          <h3>Biogás</h3>
+          <p>Mistura gasosa rica em metano, com potencial para calor, eletricidade e purificação.</p>
+        </article>
+        <article class="process-card methane">
+          <span class="process-number">05</span>
+          <small>energia</small>
+          <h3>Biometano e energia</h3>
+          <p>Após purificação, pode apoiar a matriz renovável e reduzir dependência fóssil.</p>
+        </article>
+        <article class="process-card digestate">
+          <span class="process-number">06</span>
+          <small>coproduto</small>
+          <h3>Digestato tratado</h3>
+          <p>Material remanescente exige armazenamento e aplicação com orientação técnica.</p>
+        </article>
+        <article class="process-card fertilizer">
+          <span class="process-number">07</span>
+          <small>insumo</small>
+          <h3>Biofertilizante</h3>
+          <p>Nutrientes retornam como insumo orgânico, reduzindo desperdícios.</p>
+        </article>
+        <article class="process-card final">
+          <span class="process-number">08</span>
+          <small>retorno</small>
+          <h3>Solo produtivo</h3>
+          <p>A propriedade fecha o ciclo entre produção animal, energia e fertilidade.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel benefits-section" id="beneficios" aria-labelledby="benefitsTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Indicadores ambientais</p>
+        <h2 id="benefitsTitle">Benefícios organizados como painel de decisão rural</h2>
+      </div>
+
+      <div class="indicator-grid">
+        <article class="indicator-card">
+          <span>kWh</span>
+          <h3>Energia própria</h3>
+          <p>Biogás pode apoiar geração elétrica, aquecimento e operações da propriedade.</p>
+        </article>
+        <article class="indicator-card">
+          <span>CH4</span>
+          <h3>Metano aproveitado</h3>
+          <p>Capturar e usar o gás evita desperdício de potencial energético.</p>
+        </article>
+        <article class="indicator-card">
+          <span>NPK</span>
+          <h3>Nutrientes em ciclo</h3>
+          <p>Digestato e biofertilizante devolvem nutrientes ao solo com planejamento.</p>
+        </article>
+        <article class="indicator-card">
+          <span>ABC+</span>
+          <h3>Baixo carbono</h3>
+          <p>A tecnologia dialoga com práticas sustentáveis, renda e adaptação climática.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel evidence-section" id="evidencias" aria-labelledby="evidenceTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Evidências técnicas</p>
+        <h2 id="evidenceTitle">Base científica visível no projeto</h2>
+        <p>Os pontos abaixo sintetizam fundamentos de instituições oficiais e áreas técnicas relacionadas a agropecuária, energia e transição de baixo carbono.</p>
+      </div>
+
+      <div class="evidence-panel">
+        <article class="evidence-card">
+          <span class="source-label">Embrapa</span>
+          <br>
+          <br>
+          <h3>Resíduos podem virar biogás</h3>
+          <p>Resíduos vegetais e dejetos de animais podem ser tratados em biodigestores para gerar biogás e reduzir desperdícios dentro da produção rural.</p>
+          <a class="source-slot" href="https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/biogas" target="_blank" rel="noopener noreferrer">Consultar fonte oficial da Embrapa</a>
+        </article>
+        <article class="evidence-card">
+          <span class="source-label">Embrapa Suínos e Aves</span>
+          <br>
+          <br>
+          <h3>Tratamento de dejetos</h3>
+          <p>Biodigestores contribuem para o tratamento de dejetos da produção animal e para o aproveitamento energético do biogás em propriedades e cooperativas.</p>
+          <a class="source-slot" href="https://www.embrapa.br/suinos-e-aves/biogasfert" target="_blank" rel="noopener noreferrer">Consultar fonte oficial da Embrapa Suínos e Aves</a>
+        </article>
+        <article class="evidence-card">
+          <span class="source-label">MAPA / ABC+</span>
+          <br>
+          <br>
+          <h3>Agricultura de baixa emissão</h3>
+          <p>A agricultura de baixa emissão de carbono reúne práticas que buscam sustentabilidade, melhoria de renda e enfrentamento das mudanças climáticas.</p>
+          <a class="source-slot" href="https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade/planoabc-abcmais" target="_blank" rel="noopener noreferrer">Consultar fonte oficial do MAPA / ABC+</a>
+        </article>
+        <article class="evidence-card">
+          <span class="source-label">EPE</span>
+          <br>
+          <br>
+          <h3>Transição energética</h3>
+          <p>Biogás e biometano se conectam ao planejamento energético por serem fontes renováveis com potencial de complementaridade na matriz brasileira.</p>
+          <a class="source-slot" href="https://www.epe.gov.br/pt/imprensa/noticias/potencial-de-biogas-de-residuos-no-horizonte-decenal" target="_blank" rel="noopener noreferrer">Consultar fonte oficial da EPE</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel simulator-section" id="simulador" aria-labelledby="simulatorTitle">
+      <div class="section-heading compact">
+        <h2 id="simulatorTitle">Painel educativo de potencial circular</h2>
+        <p>O painel usa fatores simplificados para fins didáticos. Ele ajuda a comparar cenários, mas não substitui projeto técnico, análise laboratorial, licenciamento, dimensionamento de biodigestor ou assistência profissional.</p>
+      </div>
+
+      <div class="simulator-layout">
+        <form class="simulator-form" id="impactForm">
+          <label for="productionType">Tipo de produção</label>
+          <select id="productionType" name="productionType" required>
+            <option value="suinos">Suinocultura</option>
+            <option value="aves">Avicultura</option>
+          </select>
+
+          <label for="animalCount">Quantidade de animais</label>
+          <input id="animalCount" name="animalCount" type="number" min="1" max="1000000" value="500" required>
+
+          <label for="mainGoal">Objetivo principal</label>
+          <select id="mainGoal" name="mainGoal" required>
+            <option value="energia">Gerar energia na propriedade</option>
+            <option value="fertilidade">Produzir biofertilizante</option>
+            <option value="renda">Criar nova fonte de renda</option>
+            <option value="ambiente">Reduzir impacto ambiental</option>
+          </select>
+
+          <div class="formula-box">
+            <h3>Como a estimativa é feita?</h3>
+            <p>Animais informados × fatores educativos simplificados = leitura aproximada de resíduo, biogás, energia equivalente e biofertilizante potencial.</p>
+          </div>
+
+          <button class="button primary full-width" type="submit">Calcular potencial</button>
+        </form>
+
+        <article class="simulator-result" id="simulatorResult" aria-live="polite">
+          <p class="result-kicker">Resultado da simulação educativa</p>
+          <h3>Preencha os dados e calcule</h3>
+          <p>O painel mostrará resíduo manejado, biogás potencial, energia equivalente, biofertilizante potencial e uma mensagem ambiental contextual.</p>
+          <p class="result-note"><strong>Aviso:</strong> valores didáticos, não oficiais.</p>
+        </article>
+      </div>
+
+      <article class="calculation-guide" id="calculationGuide" aria-labelledby="calculationGuideTitle">
+        <div class="calculation-guide-header">
+          <div>
+            <p class="eyebrow">Transparência do cálculo</p>
+            <h3 id="calculationGuideTitle">Como esta estimativa é calculada?</h3>
+            <p>A simulação combina a quantidade de animais informada com fatores educativos simplificados para estimar resíduo manejado, biogás potencial, energia equivalente e biofertilizante potencial.</p>
+          </div>
+
+          <button class="calculation-toggle" type="button" id="calculationToggle" aria-expanded="true" aria-controls="calculationGuideBody">
+            <span>Ver metodologia</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="calculation-guide-body" id="calculationGuideBody">
+          <div class="calculation-steps" aria-label="Etapas do cálculo educativo">
+            <article>
+              <span>01</span>
+              <h4>Resíduo diário</h4>
+              <p>Quantidade de animais × fator educativo de resíduo.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h4>Potencial de biogás</h4>
+              <p>Quantidade de animais × fator educativo de biogás.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h4>Energia equivalente</h4>
+              <p>Biogás potencial × fator educativo energético.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h4>Biofertilizante potencial</h4>
+              <p>Quantidade de animais × fator educativo de biofertilizante.</p>
+            </article>
+            <article>
+              <span>05</span>
+              <h4>Leitura ambiental</h4>
+              <p>O objetivo escolhido ajusta a ênfase da mensagem final.</p>
+            </article>
+          </div>
+
+          <div class="calculation-grid">
+            <section class="calculation-panel formula-panel" aria-labelledby="formulaTitle">
+              <h4 id="formulaTitle">Fórmula simplificada</h4>
+              <ul class="formula-list">
+                <li><strong>Resíduo estimado</strong><span>animais × fator de resíduo</span></li>
+                <li><strong>Biogás potencial</strong><span>animais × fator de biogás</span></li>
+                <li><strong>Energia equivalente</strong><span>biogás potencial × fator energético</span></li>
+                <li><strong>Biofertilizante potencial</strong><span>animais × fator de biofertilizante</span></li>
+              </ul>
+              <p>No painel atual, os fatores de resíduo, biogás e biofertilizante são aplicados diretamente à quantidade de animais informada.</p>
+            </section>
+
+            <section class="calculation-panel factors-panel" aria-labelledby="factorsTitle">
+              <div class="panel-title-row">
+                <h4 id="factorsTitle">Fatores usados nesta simulação</h4>
+                <span id="activeFactorName">Suinocultura</span>
+              </div>
+
+              <div class="factor-cards">
+                <article class="factor-card is-active" data-factor-card="suinos">
+                  <h5>Suinocultura</h5>
+                  <dl>
+                    <div><dt>Resíduo</dt><dd><span data-factor-value="suinos.residue">5,2</span> kg/animal/dia</dd></div>
+                    <div><dt>Biogás</dt><dd><span data-factor-value="suinos.biogas">0,19</span> m³/animal/dia</dd></div>
+                    <div><dt>Energia</dt><dd><span data-factor-value="suinos.energy">1,7</span> kWh por m³ de biogás</dd></div>
+                    <div><dt>Biofertilizante</dt><dd><span data-factor-value="suinos.fertilizer">4,1</span> kg/animal/dia</dd></div>
+                  </dl>
+                </article>
+
+                <article class="factor-card" data-factor-card="aves">
+                  <h5>Avicultura</h5>
+                  <dl>
+                    <div><dt>Resíduo</dt><dd><span data-factor-value="aves.residue">0,12</span> kg/animal/dia</dd></div>
+                    <div><dt>Biogás</dt><dd><span data-factor-value="aves.biogas">0,035</span> m³/animal/dia</dd></div>
+                    <div><dt>Energia</dt><dd><span data-factor-value="aves.energy">1,7</span> kWh por m³ de biogás</dd></div>
+                    <div><dt>Biofertilizante</dt><dd><span data-factor-value="aves.fertilizer">0,09</span> kg/animal/dia</dd></div>
+                  </dl>
+                </article>
+              </div>
+            </section>
+
+            <section class="calculation-panel important-panel" aria-labelledby="importantTitle">
+              <h4 id="importantTitle">Importante saber</h4>
+              <p>Os fatores usados nesta página são simplificados e têm finalidade educativa. Projetos reais de biodigestores exigem análise técnica, dimensionamento específico, avaliação dos resíduos, viabilidade econômica e acompanhamento profissional.</p>
+              <p>O objetivo principal selecionado influencia a ênfase da mensagem e da apresentação dos resultados, mas não substitui o planejamento técnico da propriedade.</p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-panel quiz-section" id="quiz" aria-labelledby="quizTitle">
+      <div class="section-heading compact">
+        <p class="eyebrow">Quiz técnico</p>
+        <h2 id="quizTitle">Teste seu radar de biogás, biometano e biofertilizantes</h2>
+      </div>
+
+      <form class="quiz-form" id="quizForm">
+        <article class="quiz-card" data-answer="b">
+          <h3>1. O que é digestão anaeróbia?</h3>
+          <label><input type="radio" name="q1" value="a"> Queima direta dos dejetos com presença de oxigênio</label>
+          <label><input type="radio" name="q1" value="b"> Decomposição da matéria orgânica por microrganismos em ambiente sem oxigênio</label>
+          <label><input type="radio" name="q1" value="c"> Separação manual de resíduos secos e recicláveis</label>
+          <p class="feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="quiz-card" data-answer="c">
+          <h3>2. Qual é a diferença entre biogás e biometano?</h3>
+          <label><input type="radio" name="q2" value="a"> Biogás é sólido, biometano é líquido</label>
+          <label><input type="radio" name="q2" value="b"> Não existe diferença entre os dois</label>
+          <label><input type="radio" name="q2" value="c"> Biometano é o biogás purificado, com maior concentração de metano</label>
+          <p class="feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="quiz-card" data-answer="a">
+          <h3>3. O que é digestato?</h3>
+          <label><input type="radio" name="q3" value="a"> Material remanescente do biodigestor, com potencial de uso agronômico após manejo correto</label>
+          <label><input type="radio" name="q3" value="b"> Nome técnico da eletricidade gerada por placas solares</label>
+          <label><input type="radio" name="q3" value="c"> Água potável produzida automaticamente pelo biodigestor</label>
+          <p class="feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="quiz-card" data-answer="b">
+          <h3>4. Por que o biofertilizante fecha o ciclo da economia circular?</h3>
+          <label><input type="radio" name="q4" value="a"> Porque transforma lavouras em áreas sem nutrientes</label>
+          <label><input type="radio" name="q4" value="b"> Porque devolve nutrientes tratados ao solo produtivo</label>
+          <label><input type="radio" name="q4" value="c"> Porque substitui todas as análises técnicas de solo</label>
+          <p class="feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="quiz-card" data-answer="c">
+          <h3>5. Por que o manejo incorreto dos dejetos pode causar impacto ambiental?</h3>
+          <label><input type="radio" name="q5" value="a"> Porque dejetos tratados deixam de ter nutrientes</label>
+          <label><input type="radio" name="q5" value="b"> Porque todo resíduo rural é sempre inofensivo</label>
+          <label><input type="radio" name="q5" value="c"> Porque pode contaminar água, gerar odores e desperdiçar energia química</label>
+          <p class="feedback" aria-live="polite"></p>
+        </article>
+
+        <div class="quiz-score" id="quizScore" aria-live="polite">Pontuação: 0 de 5</div>
+      </form>
+    </section>
+
+    <section class="section-panel credits-section" id="creditos" aria-labelledby="creditsTitle">
+      <div class="section-heading research-heading">
+        <p class="eyebrow">Pesquisa e referências</p>
+        <h2 id="creditsTitle">Fontes oficiais e referências</h2>
+        <p>As instituições abaixo foram selecionadas por tratarem de biodigestores, biogás, biometano, biofertilizantes, resíduos agropecuários, agricultura de baixa emissão de carbono e planejamento energético.</p>
+      </div>
+
+      <div class="official-sources-layout">
+        <article class="research-note">
+          <span class="card-badge">Fundamentação científica</span>
+          <h3>Base para consulta e validação do tema</h3>
+          <p>Os links oficiais reúnem materiais institucionais usados como apoio para pesquisa, fundamentação científica e validação do tema. Eles ajudam a conectar a proposta educacional a informações sobre agroenergia, tratamento de dejetos, biogás, biometano, biofertilizantes e políticas de baixa emissão de carbono.</p>
+          <p>O simulador da página permanece educativo: os resultados não substituem cálculo técnico oficial, dimensionamento profissional de biodigestores, análise laboratorial, licenciamento ambiental ou recomendação agronômica.</p>
+        </article>
+
+        <section class="official-links-block" aria-labelledby="officialLinksTitle">
+          <div class="block-heading">
+            <span class="card-badge">Links oficiais para consulta</span>
+            <h3 id="officialLinksTitle">Instituições e materiais técnicos</h3>
+          </div>
+
+          <div class="official-links-grid">
+            <a class="source-link-card" href="https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/biogas" target="_blank" rel="noopener noreferrer">
+              <span>Fonte oficial</span>
+              <strong>Embrapa: Biogás / Agroenergia</strong>
+              <p>Base técnica sobre biogás, resíduos orgânicos, biomassa e aproveitamento energético no contexto da agroenergia.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.embrapa.br/busca-de-noticias/-/noticia/17977754/biodigestores-solucao-para-producao-de-biogas-a-partir-de-residuos-de-suinos-e-aves" target="_blank" rel="noopener noreferrer">
+              <span>Embrapa</span>
+              <strong>Biodigestores: produção de biogás a partir de resíduos de suínos e aves</strong>
+              <p>Fonte diretamente relacionada ao tema do projeto, abordando biodigestores, resíduos de suínos e aves, biogás e biofertilizante.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.embrapa.br/suinos-e-aves/biogasfert" target="_blank" rel="noopener noreferrer">
+              <span>Embrapa Suínos e Aves</span>
+              <strong>BiogásFert</strong>
+              <p>Rede da Embrapa voltada ao tratamento de dejetos animais, produção de biogás, fertilizantes, emissões e tecnologias aplicadas à produção animal.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade/planoabc-abcmais" target="_blank" rel="noopener noreferrer">
+              <span>MAPA</span>
+              <strong>Plano ABC e ABC+</strong>
+              <p>Base institucional sobre agricultura de baixa emissão de carbono e práticas sustentáveis na agropecuária brasileira.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.gov.br/agricultura/pt-br/assuntos/noticias/2022/plataforma-reune-informacoes-sobre-o-biogas-e-fomenta-acoes-e-parcerias-no-setor" target="_blank" rel="noopener noreferrer">
+              <span>MAPA</span>
+              <strong>Plataforma reúne informações sobre o biogás</strong>
+              <p>Material que relaciona biogás, biometano, agricultura de baixa emissão de carbono e novas oportunidades para a agropecuária.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.epe.gov.br/pt/imprensa/noticias/potencial-de-biogas-de-residuos-no-horizonte-decenal" target="_blank" rel="noopener noreferrer">
+              <span>EPE</span>
+              <strong>Potencial de biogás de resíduos no horizonte decenal</strong>
+              <p>Fonte sobre o potencial brasileiro de produção de biogás a partir de resíduos da agropecuária, agroindústria e outros setores.</p>
+            </a>
+
+            <a class="source-link-card" href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/panorama-do-biometano-setor-sucroenergetico" target="_blank" rel="noopener noreferrer">
+              <span>EPE</span>
+              <strong>Panorama do Biometano: Setor Sucroenergético</strong>
+              <p>Publicação sobre biometano como fonte energética renovável e seu potencial de expansão no Brasil.</p>
+            </a>
+          </div>
+        </section>
+
+        <section class="abnt-references-block" aria-labelledby="abntTitle">
+          <div class="block-heading">
+            <span class="card-badge">Referências em ABNT</span>
+            <h3 id="abntTitle">Lista acadêmica das fontes utilizadas</h3>
+          </div>
+
+          <ol class="abnt-reference-list">
+            <li>EMBRAPA. Biogás. <strong>Agência Embrapa de Informação Tecnológica</strong>. Brasília, DF: Embrapa, 2021. Disponível em: https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/biogas. Acesso em: 11 jun. 2026.</li>
+            <li>EMBRAPA. Biodigestores: solução para produção de biogás a partir de resíduos de suínos e aves. <strong>Portal Embrapa</strong>, 13 out. 2005. Disponível em: https://www.embrapa.br/busca-de-noticias/-/noticia/17977754/biodigestores-solucao-para-producao-de-biogas-a-partir-de-residuos-de-suinos-e-aves. Acesso em: 11 jun. 2026.</li>
+            <li>EMBRAPA SUÍNOS E AVES. BiogásFert. Concórdia: Embrapa Suínos e Aves, [s.d.]. Disponível em: https://www.embrapa.br/suinos-e-aves/biogasfert. Acesso em: 11 jun. 2026.</li>
+            <li>BRASIL. Ministério da Agricultura e Pecuária. Plano ABC e ABC+. Brasília, DF: MAPA, [s.d.]. Disponível em: https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade/planoabc-abcmais. Acesso em: 11 jun. 2026.</li>
+            <li>BRASIL. Ministério da Agricultura e Pecuária. Plataforma reúne informações sobre o biogás e fomenta ações e parcerias no setor. Brasília, DF: MAPA, 2 jul. 2021. Disponível em: https://www.gov.br/agricultura/pt-br/assuntos/noticias/2022/plataforma-reune-informacoes-sobre-o-biogas-e-fomenta-acoes-e-parcerias-no-setor. Acesso em: 11 jun. 2026.</li>
+            <li>EMPRESA DE PESQUISA ENERGÉTICA. Potencial de biogás de resíduos no horizonte decenal. Rio de Janeiro: EPE, [s.d.]. Disponível em: https://www.epe.gov.br/pt/imprensa/noticias/potencial-de-biogas-de-residuos-no-horizonte-decenal. Acesso em: 11 jun. 2026.</li>
+            <li>EMPRESA DE PESQUISA ENERGÉTICA. Panorama do Biometano: Setor Sucroenergético. Rio de Janeiro: EPE, 2023. Disponível em: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/panorama-do-biometano-setor-sucroenergetico. Acesso em: 11 jun. 2026.</li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <section class="section-panel about-section" id="sobre" aria-labelledby="aboutTitle">
+      <div class="section-heading research-heading">
+        <p class="eyebrow">Agrinho 2026</p>
+        <h2 id="aboutTitle">Sobre o Projeto</h2>
+        <p>Informações institucionais, objetivo educacional e tecnologias utilizadas no desenvolvimento da página.</p>
+      </div>
+
+      <div class="about-layout">
+        <article class="about-card about-institutional">
+          <div class="about-card-header">
+            <span class="card-badge">Pensamento Computacional</span>
+            <h3>Dados institucionais</h3>
+          </div>
+
+          <dl class="about-data-list">
+            <div>
+              <dt>Escola</dt>
+              <dd>Colégio Estadual João XXIII - Clevelândia/PR</dd>
+            </div>
+            <div>
+              <dt>Aluna</dt>
+              <dd>Isadora Vedelago Vieira</dd>
+            </div>
+            <div>
+              <dt>Componente Curricular</dt>
+              <dd>Pensamento Computacional</dd>
+            </div>
+            <div>
+              <dt>Professor Orientador</dt>
+              <dd>Robert Julianotte de Souza</dd>
+            </div>
+          </dl>
+        </article>
+
+        <article class="about-card about-objective">
+          <div class="about-card-header">
+            <span class="card-badge">Agrinho 2026</span>
+            <h3>Objetivo do Projeto</h3>
+          </div>
+          <p>Demonstrar como dejetos da suinocultura e da avicultura podem ser tratados em biodigestores para gerar biogás, biometano, energia renovável e biofertilizantes, promovendo sustentabilidade, economia circular e redução de impactos ambientais no campo.</p>
+        </article>
+
+        <article class="about-card about-tech">
+          <div class="about-card-header">
+            <span class="card-badge">HTML • CSS • JavaScript</span>
+            <h3>Tecnologias Utilizadas</h3>
+          </div>
+          <p>HTML, CSS e JavaScript puro, sem frameworks, bibliotecas externas ou dependências.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Agrinho 2026</strong>
+    <p>© 2026 Isadora Vedelago Vieira. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
